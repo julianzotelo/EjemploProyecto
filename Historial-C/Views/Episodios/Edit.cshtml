@@ -1,0 +1,55 @@
+﻿@model Historial_C.Models.Episodio
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Cerrar Episodio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PacienteId" class="control-label"></label>
+                <input asp-for="PacienteId" class="form-control" readonly />
+                <span asp-validation-for="PacienteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Motivo" class="control-label"></label>
+                <input asp-for="Motivo" class="form-control" readonly/>
+                <span asp-validation-for="Motivo" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" readonly />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaYHoraAlta" class="control-label"></label>
+                <input asp-for="FechaYHoraAlta" class="form-control" />
+                <span asp-validation-for="FechaYHoraAlta" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Cerrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

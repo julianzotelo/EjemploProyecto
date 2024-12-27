@@ -1,0 +1,47 @@
+﻿@model Historial_C.Models.Evolucion
+
+@{
+    ViewData["Title"] = "CierreAdministrativo";
+}
+
+<h1>Cierre Administrativo</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            @using (Html.BeginForm("CierreAdministrativo", "Evoluciones"))
+            {
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               
+                <div class="form-group">
+                    <label asp-for="EpisodioId" class="control-label"></label>
+                    <input asp-for="EpisodioId" class="form-control" readonly />
+                    <span asp-validation-for="EpisodioId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DescripcionAtencion" class="control-label"></label>
+                    <input asp-for="DescripcionAtencion" class="form-control" />
+                    <span asp-validation-for="DescripcionAtencion" class="text-danger"></span>
+                </div>
+            
+                <div class="form-group">
+                    <br />
+                    <input type="submit" value="Cerrar" class="btn btn-primary" />
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <br />
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

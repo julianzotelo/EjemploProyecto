@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Historial-C.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Historial-C.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\css\\MisEstilos.css",
+      "PackagePath": "staticwebassets\\css\\MisEstilos.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\CuritasFondo.jpg",
+      "PackagePath": "staticwebassets\\img\\CuritasFondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\HistoriasClinicasIcono.PNG",
+      "PackagePath": "staticwebassets\\img\\HistoriasClinicasIcono.PNG"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\acceso.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\appointment.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\appointment.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\band-aid (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\band-aid (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\band-aid (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\band-aid (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\band-aid.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\band-aid.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\buscar.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\buscar.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\calendar.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\covid-test.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\covid-test.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\crowd.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\crowd.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\diagnosis.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\diagnosis.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\document.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\document.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\drug.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\drug.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\emergency-call.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\emergency-call.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health-check.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health-check.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health-checkup.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health-checkup.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health-report (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health-report (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health-report (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health-report (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health-report.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health-report.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\health.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\health.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\healthcare.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\healthcare.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (10).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (10).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (4).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (4).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (5).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (5).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (7).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (7).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital (9).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital (9).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital(2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital(2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital(3).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital(3).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital(6).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital(6).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital(8).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital(8).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-bed (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-bed (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-bed.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-bed.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-bed1.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-bed1.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-phone (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-phone (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-phone (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-phone (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-phone.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-phone.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital-sign.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital-sign.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\hospital.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\hospital.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\id-card.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\id-card.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\information.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\information.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\iniciar-la-sesion.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\iniciar-la-sesion.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\iniciar-sesion.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\iniciar-sesion.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\inicio-sesion.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\inicio-sesion.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\lapiz.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\lapiz.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\location.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-check (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-check (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-check.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-check.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-history (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-history (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-history (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-history (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-history.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-history.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-history3.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-history3.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-record (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-record (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-record (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-record (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-record.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-record.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (3).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (3).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (4).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (4).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (5).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (5).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (6).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (6).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report (7).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report (7).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-report.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-report.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-result.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-result.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical-team.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical-team.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medical.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medical.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medicine.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medicine.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\medico.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\medico.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\nurses.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\nurses.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\online-appointment.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\online-appointment.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\package.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\package.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\patch.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\patch.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\report (1).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\report (1).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\report (2).png",
+      "PackagePath": "staticwebassets\\img\\iconos\\report (2).png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\report.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\report.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\schedule.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\schedule.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\vendaje.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\vendaje.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\img\\iconos\\website.png",
+      "PackagePath": "staticwebassets\\img\\iconos\\website.png"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\julian.zotelo\\Desktop\\NT1-2022-2C-C-G4\\Historial-C\\Historial-C\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Historial-C.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Historial-C.props",
+      "PackagePath": "build\\Historial-C.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Historial-C.props",
+      "PackagePath": "buildMultiTargeting\\Historial-C.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Historial-C.props",
+      "PackagePath": "buildTransitive\\Historial-C.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

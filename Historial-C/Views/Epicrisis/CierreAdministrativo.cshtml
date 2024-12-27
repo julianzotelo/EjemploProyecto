@@ -1,0 +1,42 @@
+﻿@model Historial_C.Models.Epicrisis
+
+@{
+    ViewData["Title"] = "CierreAdministrativo";
+}
+
+<h1>CierreAdministrativo</h1>
+
+<h4>Epicrisis</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CierreAdministrativo" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MedicoId" class="control-label"></label>
+                <select asp-for="MedicoId" class ="form-control" asp-items="ViewBag.MedicoId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaYHora" class="control-label"></label>
+                <input asp-for="FechaYHora" class="form-control" />
+                <span asp-validation-for="FechaYHora" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EpisodioId" class="control-label"></label>
+                <select asp-for="EpisodioId" class ="form-control" asp-items="ViewBag.EpisodioId"></select>
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

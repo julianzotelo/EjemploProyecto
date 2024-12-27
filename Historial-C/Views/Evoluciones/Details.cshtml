@@ -1,0 +1,118 @@
+﻿@model Historial_C.Models.Evolucion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Evolución</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Medico)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Medico.Apellido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescripcionAtencion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescripcionAtencion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaYHoraAlta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaYHoraAlta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaYHoraCierre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaYHoraCierre)
+        </dd>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstadoAbierto)
+        </dt>
+        <dd class = "col-sm-10">
+         
+            @if (Model.EstadoAbierto)
+            {
+                <p>Abierto</p>
+            }
+            else
+            {
+                <p>Cerrado</p>
+            }
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @if ( User.IsInRole("Medico") && Model.EstadoAbierto)
+    {
+        <a asp-action="CerrarEvolucion" asp-route-id="@Model.Id" class="btn btn-primary btn-dark">Cerrar Evolucion</a>
+    }
+
+</div>
+<hr/>
+
+<h1>Notas</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Mensaje
+            </th>
+            <th>
+                Descripcion
+            </th>
+            <th>
+                Empleado
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @if ((Model.EstadoAbierto == false) && (Model.Notas != null) && (Model.Notas.Any()))
+        {
+            
+                if ((User.IsInRole("Empleado") || User.IsInRole("Medico")) && (User.Identity.Name.Equals(Model.Medico.UserName))) {
+                    <a asp-action="Create" asp-controller="Notas" asp-route-evolucionId="@Model.Id" class="btn btn-primary btn-dark">Cargar Notas</a>
+                }
+        @foreach (var item in Model.Notas)
+        {
+               
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mensaje)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Evolucion.DescripcionAtencion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Empleado.Nombre)
+                    @Html.DisplayFor(modelItem => item.Empleado.Apellido)
+                </td>
+            </tr>
+        }
+        }else if(((Model.Notas == null) ||  (!Model.Notas.Any())) && (Model.EstadoAbierto == false))
+        {
+            if ((User.IsInRole("Empleado") || User.IsInRole("Medico")) && (User.Identity.Name.Equals(Model.Medico.UserName)))
+            {
+                <a asp-action="Create" asp-controller="Notas" asp-route-evolucionId="@Model.Id" class="btn btn-primary btn-dark">Cargar Notas</a>
+            }
+       
+        }
+       
+    </tbody>
+</table>
+
+<a asp-controller="Episodios" asp-action="Details" asp-route-id="@Model.EpisodioId" class="btn btn-primary btn-dark">Volver</a>

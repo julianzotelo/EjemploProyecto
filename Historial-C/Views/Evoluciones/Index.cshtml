@@ -1,0 +1,14 @@
+﻿@model Historial_C.Models.Evolucion
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Evoluciones</h1>
+
+@if(User.IsInRole("Medico")){
+<p>
+    <a asp-action="Create" asp-route-episodioId="@Model.Id" asp-route-medicoId="@Model.MedicoId" class="btn btn-primary">Crear Evolución</a>
+</p>
+}
+    

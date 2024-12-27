@@ -1,0 +1,315 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Historial_C
+build_property.RootNamespace = Historial_C
+build_property.ProjectDir = C:\Users\julian.zotelo\Desktop\NT1-2022-2C-C-G4\Historial-C\Historial-C\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\julian.zotelo\Desktop\NT1-2022-2C-C-G4\Historial-C\Historial-C
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Account/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc29EZW5lZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Account/IniciarSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmljaWFyU2VzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Account/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Diagnosticos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Diagnosticos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Diagnosticos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Diagnosticos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Diagnosticos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Empleados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Empleados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Empleados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Empleados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Empleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/CierreAdministrativo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXENpZXJyZUFkbWluaXN0cmF0aXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Epicrisis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpY3Jpc2lzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/CierreAdministrativo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXENpZXJyZUFkbWluaXN0cmF0aXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/CierreEpisodio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXENpZXJyZUVwaXNvZGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Episodios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/BuscarEspecialidad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcQnVzY2FyRXNwZWNpYWxpZGFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Especialidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/CerrarEvolucion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcQ2VycmFyRXZvbHVjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/CierreAdministrativo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcQ2llcnJlQWRtaW5pc3RyYXRpdm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Evoluciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZvbHVjaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Home/CartillaMedica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0aWxsYU1lZGljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Home/EspecialidadMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc3BlY2lhbGlkYWRNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Home/InformacionInstitucional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvcm1hY2lvbkluc3RpdHVjaW9uYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/CartillaMedica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xDYXJ0aWxsYU1lZGljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Medicos/listarHistorialClinica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xsaXN0YXJIaXN0b3JpYWxDbGluaWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Notas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Notas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Notas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Notas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Notas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/BuscarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEJ1c2NhclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/DetailsPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHNQZXJmaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/HistorialClinicaPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEhpc3RvcmlhbENsaW5pY2FQYWNpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Pacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/DetailsPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGV0YWlsc1BlcmZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Personas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julian.zotelo/Desktop/NT1-2022-2C-C-G4/Historial-C/Historial-C/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8worttxefq

@@ -1,0 +1,185 @@
+﻿@model Historial_C.Models.Episodio
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Episodio</h1>
+
+<div>
+    
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Paciente.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Paciente.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Paciente.Apellido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Paciente.Apellido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Motivo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Motivo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaYHoraInicio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaYHoraInicio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaYHoraAlta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaYHoraAlta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaYHoraCierre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaYHoraCierre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstadoAbierto)
+        </dt>
+        <dd class = "col-sm-10">
+            @*@Html.DisplayFor(model => model.EstadoAbierto)*@
+            @if (Model.EstadoAbierto)
+            {
+                <p>Abierto</p>
+            }
+            else
+            {
+                <p>Cerrado</p>
+            }
+        </dd>
+    </dl>
+</div>
+
+@if (User.IsInRole("Medico"))
+  {
+        if ((Model.EstadoAbierto == true) &&  (Model.Evoluciones.Any()))
+       {
+            if (Model.Evoluciones.All(e => !e.EstadoAbierto))
+            {
+                <a asp-controller="Episodios" asp-action="CierreEpisodio" asp-route-id="@Model.Id" class="btn btn-primary btn-dark">Cerrar Episodio</a>
+            }
+                  
+       }
+  }
+<hr/>
+<div>
+    <h1> Evoluciones</h1>
+  @if (User.IsInRole("Medico"))
+  {
+       if (Model.EstadoAbierto == true)
+       {
+          <a asp-action="Create" asp-controller="Evoluciones" asp-route-episodioId="@Model.Id" class="btn btn-primary btn-dark">Cargar Evolucion</a>
+       }
+  }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Evoluciones[0].DescripcionAtencion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Evoluciones[0].FechaYHoraInicio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Evoluciones[0].Medico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Evoluciones[0].EstadoAbierto)
+                </th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Evoluciones)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescripcionAtencion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaYHoraInicio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Medico.Nombre)
+                        @Html.DisplayFor(modelItem => item.Medico.Apellido)
+                    </td>
+                    <td>
+                    
+                        @if (item.EstadoAbierto)
+                        {
+                            <p>Abierto</p>
+                        }
+                        else
+                        {
+                            <p>Cerrado</p>
+                        }
+                    </td>
+                  
+                    <td>
+                     
+                        <a asp-controller="Evoluciones"  asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-dark">Ver detalle</a>
+                        @if (User.IsInRole("Medico") && Model.EstadoAbierto == true && item.EstadoAbierto)
+                        {
+                            <a asp-controller="Evoluciones" asp-action="CerrarEvolucion" asp-route-id="@item.Id" class="btn btn-primary btn-dark">Cerrar evolución</a>
+                        }
+
+
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+ @if (Model.EstadoAbierto == false)
+{
+
+ <h1> Epicrisis</h1>
+    <div>
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Epicrisis.Diagnostico.Descripcion)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Epicrisis.Diagnostico.Descripcion)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Epicrisis.Diagnostico.Recomendacion)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Epicrisis.Diagnostico.Recomendacion)
+            </dd>
+        </dl>
+    </div>
+
+}
+else{
+
+    <h1> Epicrisis</h1>
+    <p>El paciente no tiene una epicrisis cargada ya que el episodio sigue abierto.</p>
+
+}
+
+<a asp-controller="Pacientes" asp-action="HistorialClinicaPaciente" asp-route-pacienteUserName="@Model.Paciente.UserName" class="btn btn-primary btn-dark">Volver</a>

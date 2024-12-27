@@ -1,0 +1,79 @@
+﻿@model Historial_C.Models.Paciente
+
+@{
+    ViewData["Title"] = "HistoriaClinicaPaciente";
+}
+
+<h1>
+   Historia Clinica
+</h1>
+
+@if (User.IsInRole("Empleado"))
+{
+    <a asp-controller="Episodios" asp-action="Create" asp-route-pacienteId="@Model.Id" class=" btn btn-primary btn-dark" title="Crear Episodio">Crear Episodio</a>
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Episodios)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Episodios[0].FechaYHoraInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Episodios[0].EstadoAbierto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Episodios[0].EmpleadoRegistra)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Episodios) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Motivo)
+            </td>
+           <td>
+                @Html.DisplayFor(modelItem => item.FechaYHoraInicio)
+            </td>
+            <td>
+                  
+                    @if (item.EstadoAbierto){
+                        <p>Abierto</p>
+                    }else{
+                        <p>Cerrado</p>
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpleadoRegistra.Nombre)
+                @Html.DisplayFor(modelItem => item.EmpleadoRegistra.Apellido)
+            </td>
+            <td>
+                    
+                        
+                        <a asp-controller="Episodios" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-dark">Ver detalle</a>
+
+                    @if ((User.IsInRole("Medico")) && (item.EstadoAbierto == true) && (item.Evoluciones.Any()))@*(item.Evoluciones.Count()>0))*@
+                    {
+
+                        @if(item.Evoluciones.All(e => !e.EstadoAbierto))
+                        {
+                            <a asp-controller="Episodios" asp-action="CierreEpisodio" asp-route-id="@item.Id" class="btn btn-primary btn-dark">Cerrar Episodio</a>
+                        }
+               
+                       
+                    }
+                    @if ((User.IsInRole("Empleado")) && (item.EstadoAbierto == true) && (!item.Evoluciones.Any()))@*(item.Evoluciones.Count() == 0))*@
+                    {
+                        <a asp-controller="Episodios" asp-action="CierreAdministrativo" asp-route-id="@item.Id" class="btn btn-primary btn-dark">Cierre administrativo</a>
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

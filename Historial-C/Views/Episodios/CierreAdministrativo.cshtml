@@ -1,0 +1,66 @@
+﻿@model Historial_C.Models.Episodio
+
+@{
+    ViewData["Title"] = "CierreAdministrativo";
+}
+
+<h1 >Cierre Administrativo</h1>
+<h2> El paciente no tiene evoluciones asociadas, debe cargar un cierre administrativo.</h2>
+
+
+<h4>Epicrisis</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CierreAdministrativo" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            <div class="form-group">
+             
+                <input asp-for="@Model.Id" class="form-control" hidden/>
+                <span asp-validation-for="@Model.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+    
+                <input asp-for="@Model.FechaYHoraInicio" class="form-control" hidden />
+                <span asp-validation-for="@Model.FechaYHoraInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+           
+                <input asp-for="@Model.PacienteId" class="form-control" hidden />
+                <span asp-validation-for="@Model.PacienteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            
+                <input asp-for="@Model.Motivo" class="form-control" hidden />
+                <span asp-validation-for="@Model.Motivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               
+                <input asp-for="@Model.Descripcion" class="form-control" hidden />
+                <span asp-validation-for="@Model.Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+              
+                <input asp-for="@Model.Epicrisis.Diagnostico.Descripcion" class="form-control" hidden />
+                <span asp-validation-for="@Model.Epicrisis.Diagnostico.Descripcion" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="@Model.Epicrisis.Diagnostico.Recomendacion" class="control-label"></label>
+                <input asp-for="@Model.Epicrisis.Diagnostico.Recomendacion" class="form-control" />
+                <span asp-validation-for="@Model.Epicrisis.Diagnostico.Recomendacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,60 @@
+﻿@model Historial_C.Models.Evolucion
+
+@{
+    ViewData["Title"] = "CerrarEvolucion";
+}
+
+<h1>CerrarEvolucion</h1>
+
+<h4>Evolucion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CerrarEvolucion" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+        
+                <input asp-for="MedicoId" class="form-control" asp-items="ViewBag.MedicoId" hidden/>
+                <span asp-validation-for="MedicoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+             
+                <input asp-for="EpisodioId" class="form-control" asp-items="ViewBag.EpisodioId" hidden/>
+                <span asp-validation-for="EpisodioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+           
+                <input asp-for="FechaYHoraInicio" class="form-control" hidden/>
+                <span asp-validation-for="FechaYHoraInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+           
+                <input asp-for="DescripcionAtencion" class="form-control" asp-items="ViewBag.DescripcionAtencion" hidden />
+                <span asp-validation-for="DescripcionAtencion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaYHoraAlta" class="control-label"></label>
+                <input asp-for="FechaYHoraAlta" class="form-control" asp-items="ViewBag.FechaYHoraAlta" value=DateTime.Now />
+                <span asp-validation-for="FechaYHoraAlta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               
+                <input asp-for="Medico" class="form-control" asp-items="ViewBag.Medico" hidden />
+                <span asp-validation-for="Medico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cerrar" class="btn btn-primary btn-dark" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
